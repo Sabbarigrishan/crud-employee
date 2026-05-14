@@ -7,7 +7,6 @@ const AddUpdateEmployeeComponent = () => {
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
     const [emailId, setEmailId] = useState('')
-    const history = useNavigate();
     const { id } = useParams();
 
     const saveOrUpdateEmployee = (e) => {
@@ -45,7 +44,7 @@ const AddUpdateEmployeeComponent = () => {
         }).catch(error => {
             console.log(error)
         })
-    }, [])
+    }, [id])
 
     const title = () => {
 
