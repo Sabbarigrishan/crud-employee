@@ -14,7 +14,7 @@ class FooterComponent extends Component {
         return (
             <div>
                 <footer className="footer">
-                    <span className="text-muted">All Rights Reserved 2022 @Jonas Machado</span>
+                    <span className="text-muted">All Rights Reserved 2026 @Sabbari Grishan</span>
                 </footer>
             </div>
         )
