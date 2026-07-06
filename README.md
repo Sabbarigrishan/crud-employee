@@ -31,3 +31,5 @@ The CRUD Employee app provides a user-friendly interface for managing employee d
 - Bootstrap 5
 - Axios
 - VS Code
+## Author
+- Sabbari Grishan
